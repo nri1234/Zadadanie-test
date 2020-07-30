@@ -1,0 +1,47 @@
+.border { border: 1px solid #a5a4a5; }
+
+.container-fluid { padding: 0 !important; max-width: 1980px; background: #f2f2f2; }
+
+.container-fluid .menu { z-index: 9999999; background-color: white; }
+
+.container-fluid .menu li { padding-top: 25px; padding-bottom: 25px; }
+
+.container-fluid .nav-pills .nav-link.active, .container-fluid .nav-pills .show > .nav-link { color: black; background-color: inherit !important; border-bottom: 4px solid #000099; border-radius: 0; }
+
+.container-fluid .center { text-align: center; }
+
+.container-fluid .center .small-header { color: #a6a6a6; }
+
+.container-fluid .marg { margin: 90px 240px; }
+
+.container-fluid .marg .small-header { color: #a6a6a6; }
+
+.container-fluid .marg .border-b { border-bottom: 1px solid #a6a6a6; }
+
+.container-fluid .marg .title { font-size: 1.5rem; }
+
+.container-fluid .marg .btn-border { border-radius: 1.5rem; }
+
+.container-fluid .marg .header { color: #000099; }
+
+.container-fluid .marg .parts { color: #3385ff; }
+
+.container-fluid .marg-top { margin: 90px 0; }
+
+.container-fluid .marg-top .header { color: #000099; }
+
+.container-fluid .marg-top .title { font-size: 1.3rem; }
+
+.container-fluid .marg-top .title .small-price { font-size: 14px; top: 21px; position: absolute; }
+
+.container-fluid .marg-top .border-b { border-bottom: 1px solid #a6a6a6; }
+
+.container-fluid h4 { color: #000099; }
+
+.container-fluid .tab-content { background: #f2f2f2; }
+
+@media (max-width: 1440px) { .container-fluid .marg { margin: 80px 146px; } }
+
+@media (max-width: 1204px) { .container-fluid .marg { margin: 90px 90px !important; } }
+
+@media (max-width: 920px) { .container-fluid .marg { margin: 90px 82px !important; } }

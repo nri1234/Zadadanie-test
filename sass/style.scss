@@ -1,0 +1,95 @@
+@import "variables";
+@import "mixins";
+.border {
+  border: 1px solid $secondcolor;
+}
+.container-fluid {
+  padding: 0!important;
+  max-width: 1980px;
+  background: $thirdcolor;
+  .menu {
+    z-index: 9999999;
+    background-color: white;
+    li {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: inherit!important;
+    @include border-bold;
+    border-radius: 0;
+  }
+    .center {
+      text-align: center;
+      .small-header {
+        color: $fifthcolor;
+      }
+    }
+  .marg {
+    margin: 90px 240px;
+    .small-header {
+      color: $fifthcolor;
+    }
+    .border-b {
+      @include border-light;
+    }
+    .title {
+      font-size: 1.5rem;
+    }
+    .btn-border {
+      @include button-border;
+    }
+    .header {
+      color: $firstcolor;
+    }
+    .parts {
+      color: $fourthcolor;
+    }
+  }
+  .marg-top {
+    margin: 90px 0;
+    .header {
+      color: $firstcolor;
+    }
+    .title {
+      font-size: 1.3rem;
+      .small-price {
+        font-size: 14px;
+        top: 21px;
+        position: absolute;
+      }
+    }
+    .border-b {
+      @include border-light;
+    }
+  }
+  h4 {
+    color: $firstcolor;
+  }
+  .tab-content {
+    background: $thirdcolor;
+  }
+}
+@media(max-width: 1440px) {
+  .container-fluid {
+    .marg {
+      margin: 80px 146px;
+    }
+  }
+}
+@media(max-width: 1204px) {
+  .container-fluid {
+    .marg {
+      margin: 90px 90px!important;
+    }
+  }
+}
+@media(max-width: 920px) {
+  .container-fluid {
+    .marg {
+      margin: 90px 82px!important;
+    }
+  }
+}

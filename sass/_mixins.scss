@@ -1,0 +1,9 @@
+@mixin border-light {
+  border-bottom: 1px solid $fifthcolor;
+}
+@mixin border-bold {
+  border-bottom: 4px solid $firstcolor;
+}
+@mixin button-border {
+  border-radius: 1.5rem;;
+}
